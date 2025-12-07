@@ -58,7 +58,7 @@ function DescriptionCard({ theme = "dark" }) {
             {/* Profile Image */}
             <div className="w-full sm:w-auto flex justify-center">
               <motion.img
-                src="/images/linkdin.png"
+                src="/images/cv.png"
                 className="w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52 rounded-full object-cover border-4 border-purple-500 shadow-md"
                 whileHover={{ rotate: 3 }}
                 transition={{ duration: 0.3 }}
