@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Header({ activeSection }) {
   const [isOpen, setIsOpen] = useState(false);
-  const navItems = ["Home", "Projects", "Skills", "Contact"];
+  const navItems = ["Home", "Projects", "Education", "Contact"];
 
   return (
     <motion.header
@@ -57,11 +57,10 @@ function Header({ activeSection }) {
               <motion.a
                 key={item}
                 href={`#${lower}`}
-                className={`text-sm sm:text-base font-medium transition-all duration-300 ${
-                  activeSection === lower
+                className={`text-sm sm:text-base font-medium transition-all duration-300 ${activeSection === lower
                     ? "text-yellow-300 scale-110 underline underline-offset-4"
                     : "text-purple-400 hover:text-yellow-100"
-                }`}
+                  }`}
                 whileHover={{ scale: 1.1 }}
               >
                 {item}
@@ -98,11 +97,10 @@ function Header({ activeSection }) {
                     <a
                       href={`#${lower}`}
                       onClick={() => setIsOpen(false)}
-                      className={`block text-base sm:text-lg font-medium transition ${
-                        activeSection === lower
+                      className={`block text-base sm:text-lg font-medium transition ${activeSection === lower
                           ? "text-yellow-200"
                           : "text-white hover:text-yellow-100"
-                      }`}
+                        }`}
                     >
                       {item}
                     </a>
