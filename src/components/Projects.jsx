@@ -15,7 +15,7 @@ const projects = [
     description:
       "A web and mobile sports coaching platform that allows athletes to manage their workouts, track their progress and collaborate with coaches and nutritionists.",
     image: "/images/gosport.png",
-    github: "https://github.com/AhmedYassineAfli/coaching-main",
+    github: "https://github.com/AhmedYassineAfli/GOSPORT",
     live: "#",
     technologies: [
       "Angular",
