@@ -12,6 +12,8 @@ import {
   SiVuedotjs,
   SiPhp,
   SiSpringboot,
+  SiNodedotjs,
+  SiExpress,
 } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import Typewriter from "typewriter-effect";
@@ -27,6 +29,8 @@ function DescriptionCard({ theme = "dark" }) {
     { icon: <SiGithub />, name: "GitHub" },
     { icon: <SiPhp />, name: "PHP" },
     { icon: <SiSpringboot />, name: "Spring Boot" },
+    { icon: <SiNodedotjs />, name: "Node.js" },
+    { icon: <SiExpress />, name: "Express.js" },
   ];
 
   const neonBorder =
